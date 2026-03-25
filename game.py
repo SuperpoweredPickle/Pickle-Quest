@@ -7,14 +7,14 @@ def introduction():
 introduction()
 
 start = input ("Would you rather play the game or perish >:( ")
-if start == 'play':
+if start == 'Play':
     print ("Great! Let's play!")
     setting = input("Want to go to the Jungle, Desert or Tundra? ")
 else:
     print("Lame. Okay you're existence was wiped off the earth now")
     quit()
 
-if setting == "jungle":
+if setting == "Jungle":
     print ("Welcome to the mighty jungle! Your tour guide told you to wait here.... ")
     response = input("But he left to get ice-cream. Follow him or wait here? ")
 
@@ -33,15 +33,15 @@ if setting == "jungle":
         print ("Wrong answer, You lose. ")
         quit()
 
-if setting == "desert":
+if setting == "Desert":
     print ("Welcome to the Sahara Desert! Your tour guide told you to wait here.... ")
     response = input("But he left to get ice-cream. Follow him or wait here? ")
     if response == "Follow":
         print ("You follow him into the dunes and see a child. ")
         response = input ("Do you give them a knuckle sandwich or the cheese touch? ")
-        if input == "cheese touch":
+        if input == "Give him the cheese touch":
             print ("he passed it on to your guide")
-        elif input == "knuckle sandwich":
+        elif input == "Give him a knuckle sandwich":
             print ("He gave you one back :D")
     elif response == "Wait":
         print ("You wait another 10mins and he still isn't here. ")
@@ -50,13 +50,13 @@ if setting == "desert":
         print ("Wrong answer, You lose. ")
         quit()
 
-if setting == "tundra":
+if setting == "Tundra":
     print ('Welcome to the Tundra! Your tour guide turned into a human lolly! ')
     response = input ("Do you unfreeze him or abandon him? ")
-    if response == "unfreeze":
+    if response == "Unfreeze him":
             print ('He was grateful for your act of kindness :D ')
             print ("Reward:" + rewards[0])
-    elif response == "abandon":
+    elif response == "Abandon him":
             print ("He turned you into a kebab.")
 
 #ending 3/3
